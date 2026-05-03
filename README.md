@@ -1,13 +1,15 @@
-# StayEasy-Hotel-Booking-Website
-A full-stack hotel booking platform featuring user authentication, real-time room filtering, and a relational MySQL database.
-Tech Stack: HTML5, CSS3, JavaScript, PHP, and MySQL.  
+StayEasy Hotel Booking System
 
-Features:
+StayEasy is a full-stack hotel booking web application designed to simplify the process of searching for and booking hotel rooms. 
 
-User Management: Secure Login/Register system using PHP.  
+Features
+User Authentication: Secure registration and login system for guests.  
+Dynamic Room Search: Real-time filtering of available rooms by name and price using JavaScript DOM.  
+Booking Management: Users can view their booking history and cancel upcoming reservations.  
+Interactive UI: Responsive design using CSS for a seamless user experience across devices.  
+Database Integration: Fully functional backend using PHP and MySQL to manage users, rooms, and bookings.  
 
-Dynamic Search: JavaScript DOM-based room filtering by price and type.  
-
-Database Operations: Full CRUD functionality for managing hotel bookings.  
-
-Visuals: 
+ Tech Stack
+Frontend: HTML5, CSS3, JavaScript  
+Backend: PHP  
+Database: MySQL
