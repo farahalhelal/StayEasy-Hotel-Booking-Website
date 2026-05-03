@@ -1,0 +1,182 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    background:#f2f4f8;
+}
+
+/* HEADER */
+.main-header{
+    background:white; 
+    color:#1c2833;
+    display:flex;
+    justify-content:space-between;
+    padding:15px 30px;
+    align-items:center;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+}
+
+/* LOGO */
+.logo{
+    font-size:22px;
+    font-weight:600;
+}
+
+.logo span{
+    color:#f39c12;
+    font-weight:400;
+    margin-left:5px;
+}
+
+/* NAV LINKS */
+nav a{
+    color:#1c2833; 
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#f39c12;
+}
+
+/* CONTAINER */
+.page-container{
+    padding:30px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.page-title{
+    font-size:26px;
+    margin-bottom:20px;
+}
+
+/* FILTER */
+.filter-box{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.filter-box input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+/* GRID */
+.room-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(250px,1fr));
+    gap:20px;
+}
+
+/* CARD */
+.room-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.room-card:hover{
+    transform:translateY(-5px);
+}
+
+.room-card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+}
+
+.room-content{
+    padding:15px;
+}
+
+.price{
+    color:#27ae60;
+    font-weight:bold;
+}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 15px;
+    background:#f39c12;
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#d68910;
+}
+
+/* BACK BUTTON */
+.back-btn{
+    display:inline-block;
+    margin-bottom:20px;
+    text-decoration:none;
+    color:#333;
+}
+
+.back-btn:hover{
+    color:#f39c12;
+}
+
+/* FORM */
+.form-box{
+    width:350px;
+    margin:80px auto;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-box input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.btn{
+    width:100%;
+    padding:10px;
+    background:#f39c12;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#d68910;
+}
+
+/* TABLE */
+.table-box{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td, th{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
